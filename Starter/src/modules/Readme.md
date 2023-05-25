@@ -1,0 +1,1 @@
+This folder can be used to store Native Modules javascript export files.
