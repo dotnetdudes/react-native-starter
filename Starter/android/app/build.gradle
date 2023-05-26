@@ -93,15 +93,15 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.eea.starter"
+    namespace "com.dotnetdudes.starter"
     defaultConfig {
-        applicationId "com.eea.starter"
+        applicationId "com.dotnetdudes.starter"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
         manifestPlaceholders = [
-            appAuthRedirectScheme: 'com.eea.starter'
+            appAuthRedirectScheme: 'com.dotnetdudes.starter'
       ]
     }
 

@@ -1,4 +1,4 @@
-package com.eea.starter;
+package com.dotnetdudes.starter;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

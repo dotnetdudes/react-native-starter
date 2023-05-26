@@ -1,4 +1,4 @@
-package com.eea.starter;
+package com.dotnetdudes.starter;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
