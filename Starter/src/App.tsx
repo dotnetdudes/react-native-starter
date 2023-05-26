@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { store, persistor } from '@/store';
 import { ThemeProvider } from '@/providers/ThemeProvider';
-import { ApplicationNavigator } from '@/navigators/Application';
+import ApplicationNavigator from '@/navigators/Application';
 import '@/translations';
 
 const PGate = PersistGate as any;
