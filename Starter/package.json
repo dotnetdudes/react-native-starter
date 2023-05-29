@@ -74,7 +74,7 @@
     "node-plop": "0.26.2",
     "plop": "2.7.4",
     "prettier": "^2.8.8",
-    "react-native-flipper": "^0.164.0",
+    "react-native-flipper": "^0.191.0",
     "react-test-renderer": "18.2.0",
     "redux-flipper": "^2.0.2",
     "shelljs": "^0.8.5",
