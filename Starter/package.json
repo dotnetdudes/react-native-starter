@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.1",
-    "@babel/preset-env": "^7.22.2",
+    "@babel/preset-env": "^7.22.4",
     "@babel/runtime": "^7.22.3",
     "@react-native-community/eslint-config": "^3.2.0",
     "@testing-library/jest-native": "^5.4.2",
@@ -72,7 +72,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "metro-react-native-babel-preset": "^0.76.5",
     "node-plop": "0.26.2",
-    "plop": "2.7.4",
+    "plop": "2.7.6",
     "prettier": "^2.8.8",
     "react-native-flipper": "^0.191.0",
     "react-test-renderer": "18.2.0",
