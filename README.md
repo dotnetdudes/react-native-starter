@@ -40,11 +40,11 @@ This section outlines some of the features which are included and configured to 
 [Native Modules](./documentation/native-modules.md)  
 
 ## References
-This Starter kit is inspired by the ***React Boilerplate CRA*** and ***React Native Boilerplate*** projects. The documentation for those projects is also a valuable resource.  
+This Starter kit based on the ***React Boilerplate CRA*** and ***React Native Boilerplate*** projects. The documentation for those projects is a very valuable resource.  
 [React Boilerplate CRA](https://cansahin.gitbook.io/react-boilerplate-cra-template/understanding-react-boilerplate)  
 [React Native Boilerplate](https://github.com/thecodingmachine/react-native-boilerplate)  
 
-## Some React and Redux Coding Resources
+## Some Relavant React and Redux Coding Resources
 [React App Performance](https://blog.bitsrc.io/10-ways-to-optimize-your-react-apps-performance-e5e437c9abce)  
 [When to useMemo and useCallback](https://kentcdodds.com/blog/usememo-and-usecallback)  
 [Guide to UseCallback](https://dmitripavlutin.com/dont-overuse-react-usecallback/)  

@@ -4,9 +4,9 @@ import { useDispatch } from 'react-redux';
 import { themeActions } from '@/providers/ThemeProvider/slice';
 import { getThemeFromStorage } from '@/providers/ThemeProvider/utils';
 import { useAuthSlice } from '@/features/Auth/slice';
-import EEABrand from '@/components/EEABrand';
 import useLayout from '@/styles/hooks/useLayout';
 import { navigateAndSimpleReset } from '@/navigators/utils';
+import DudesBrand from '@/components/DudesBrand';
 
 const StartupContainer = () => {
   const dispatch = useDispatch();
@@ -28,7 +28,7 @@ const StartupContainer = () => {
 
   return (
     <View style={[Layout.fill, Layout.colCenter]}>
-      <EEABrand />
+      <DudesBrand />
     </View>
   );
 };
