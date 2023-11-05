@@ -6,7 +6,7 @@ Clone this repo, and remove the `.git` folder from the project root.
 
 Rename the project using the [Rect Native Rename](https://github.com/junedomingo/react-native-rename) library. For example, run this command in the **Starter** directory:  
 
-```npx react-native-rename "New App" -b com.coreplan.newapp```
+```npx react-native-rename "New App" -b com.dotnetdudes.newapp```
 
 Run ```yarn install```, then in the *ios* folder, ```pod install```. Check the **Note for Mac M1 users** on the [React Native Getting started](https://reactnative.dev/docs/environment-setup) if you're on an M1 mac and have problems.  
 

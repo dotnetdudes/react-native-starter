@@ -1,4 +1,4 @@
-package com.dotnetdudes.horus;
+package com.dotnetdudes.starter;
 import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
