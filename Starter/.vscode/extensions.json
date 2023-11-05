@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "fwcd.kotlin",
+        "redhat.java",
+        "ms-vscode.powershell",
+        "ms-azuretools.vscode-docker",
+        "orta.vscode-jest",
+        "yzhang.markdown-all-in-one",
+        "redhat.vscode-yaml"
+    ]
+}
