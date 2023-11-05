@@ -23,7 +23,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'Horus' do
+target 'Starter' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -48,7 +48,7 @@ target 'Horus' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  target 'HorusTests' do
+  target 'StarterTests' do
     inherit! :complete
     # Pods for testing
   end
