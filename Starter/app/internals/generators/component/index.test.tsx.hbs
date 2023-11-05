@@ -1,0 +1,22 @@
+import { {{ properCase componentName }} } from '../index';
+import { render, screen } from '@testing-library/react-native';
+// import { screen } from '@testing-library/react-native';
+// import { customRender } from '@/utils/test-utils';
+import renderer from 'react-test-renderer';
+import * as React from 'react';
+
+describe('Testing some text', () => {
+  test('Checks if the correct text is entered', () => {
+    const component = <{{ properCase componentName }} />;
+
+    render(component);
+    const oldScreen = screen.queryByText('hi there');
+
+    expect(oldScreen).toBeOnTheScreen();
+  });
+});
+
+test('renders correctly', () => {
+  const tree = renderer.create(<{{ properCase componentName }} />).toJSON();
+  expect(tree).toMatchSnapshot();
+});
