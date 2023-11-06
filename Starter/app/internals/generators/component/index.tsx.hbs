@@ -30,7 +30,7 @@ export function {{ properCase componentName }}(props: Props) {
     <ScrollView>
       <View>
         {{#if wantTranslations}}
-        <Text>{/*  {t(...messages.someThing())}  */}</Text>
+        <Text>{t('{{ lowerCase componentName }}.someThing')}</Text>
         {{/if}}
       </View>
     </ScrollView>

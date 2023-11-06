@@ -10,5 +10,15 @@
     }
   },
   "toLight": "Switch to light mode",
-  "toDark": "Switch to dark mode"
+  "toDark": "Switch to dark mode",
+  "dudesbrand": {
+    "altLogo": "dotnetdudes logo"
+  },
+  "themeswitch": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "firsty": {
+    "someThing": "hi there"
+  }
 }

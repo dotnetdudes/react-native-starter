@@ -4,23 +4,23 @@
  *
  */
 // import { messages } from './messages';
-// import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 import * as React from 'react';
 import { View, Image } from 'react-native';
 import DudesLogo from '@/assets/Images/dudes.png';
 
 interface Props {
-  height?: number | string;
-  width?: number | string;
+  height?: number;
+  width?: number;
 }
 
 export function DudesBrand({ height, width }: Props) {
   // //eslint-disable-next-line @typescript-eslint/no-unused-vars
-  // const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <View style={{ height, width }}>
-      <Image source={DudesLogo} />
+      <Image source={DudesLogo} alt={t('dudesbrand.altLogo')} />
     </View>
   );
 }
