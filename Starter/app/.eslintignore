@@ -1,0 +1,5 @@
+.prettierrc.js
+babel.config.js
+.eslintrc.js
+locales
+locales/**/*.ts

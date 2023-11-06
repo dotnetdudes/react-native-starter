@@ -1,0 +1,24 @@
+{
+  "translations": {
+    "someThing": "default value",
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "a": {
+    "b": {
+      "c": ""
+    }
+  },
+  "toLight": "Switch to light mode",
+  "toDark": "Switch to dark mode",
+  "dudesbrand": {
+    "altLogo": "dotnetdudes logo"
+  },
+  "themeswitch": {
+    "toLight": "Switch to light mode",
+    "toDark": "Switch to dark mode"
+  },
+  "firsty": {
+    "someThing": "hi there"
+  }
+}
