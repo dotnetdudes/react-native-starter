@@ -7,6 +7,6 @@ import { translations } from '@/locales/translations';
 import { _t } from '@/utils/messages';
 
 export const messages = {
-  toLight: () => _t(translations.toLight, 'Switch to light mode'),
-  toDark: () => _t(translations.toDark, 'Switch to dark mode'),
+  toLight: () => _t(translations.themeswitch.toLight, 'Switch to light mode'),
+  toDark: () => _t(translations.themeswitch.toDark, 'Switch to dark mode'),
 };

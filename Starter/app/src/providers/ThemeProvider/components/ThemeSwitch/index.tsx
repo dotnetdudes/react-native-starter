@@ -25,11 +25,11 @@ const ThemeSwitch = () => {
 
   return theme === 'dark' ? (
     <Button mode="contained" icon="brightness-7" onPress={handleChange}>
-      {t('toLight')}
+      {t('themeswitch.toLight')}
     </Button>
   ) : (
     <Button mode="contained" icon="brightness-5" onPress={handleChange}>
-      {t('toDark')}
+      {t('themeswitch.toDark')}
     </Button>
   );
 };
